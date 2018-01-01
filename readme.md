@@ -6,7 +6,7 @@ From brief research, the router appears to be used by DODO, iPrimus and Commande
 
 The default SSIDs for these routers are a combination of the ISP name + the last 4 characters of the routers MAC address. DODO ISP example SSID: `DODO4455` - where `4455` is taken from `00:11:22:33:44:55`
 
-I've created 2 wordlists that can be used to find the WPA(2) passphrase from a MP264DB WPA handshake if the default passphrase is still in use.
+I've created 2 wordlists that can be used to find the WPA passphrase from a MP264DB WPA handshake if the default passphrase is still in use.
 
 ## Wordlists
 Wordlists have been compressed to reduce their size. You can exctract them using the following command:
@@ -24,6 +24,4 @@ The following mask can be used in Hashcat instead of using a wordlist
 Where `...` are the other options for your cracking session
 
 ## Disclaimer
-These lists are intended for educational and/or lawful use only. You should only use these lists against your own equipment and/or during authorised penetration test of 3rd party equipment.
-
-https://github.com/j-marz/audiocodes_mp264db_wpa_list/raw/master/images/mp264db_dodo.png
+These lists are intended for educational and/or lawful use only. You should only use these lists against your own equipment and/or during authorised penetration tests of 3rd party equipment.
